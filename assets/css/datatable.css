@@ -1,0 +1,30 @@
+:root {
+    --theadColor: #435ebe;
+}
+
+table.dataTable {
+    width:100%;
+}
+
+thead {
+    background-color: var(--theadColor);
+}
+
+thead > tr,
+thead > tr > th {
+    color: #fff;
+    font-size:12px;
+    text-align: start;
+}
+
+tbody > tr > td {
+    font-size:12px;
+}
+
+tbody tr:hover {
+    color: #000;
+}
+
+.container-fluid{
+    padding:5px;
+}
