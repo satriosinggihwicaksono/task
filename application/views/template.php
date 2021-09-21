@@ -19,7 +19,7 @@
         if(!empty($this->uri->segment(1))){  
             $this->load->view($this->uri->segment(1).'/header');
         } else {
-            $this->load->view('dashboard/header');
+            $this->load->view('task1/header');
         }
     ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -45,7 +45,7 @@
                 if(!empty($this->uri->segment(1))){
                     $this->load->view($this->uri->segment(1).'/content');
                 } else {
-                    $this->load->view('dashboard/content');
+                    $this->load->view('task1/content');
                 }
             ?>
         </div>
@@ -59,7 +59,7 @@
         if(!empty($this->uri->segment(1))){  
             $this->load->view($this->uri->segment(1).'/footer');
         } else {
-            $this->load->view('dashboard/footer');
+            $this->load->view('task1/footer');
         }
     ?>
 </body>
